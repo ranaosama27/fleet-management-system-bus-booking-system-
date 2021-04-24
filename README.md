@@ -6,7 +6,17 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
+## About Project
 
+We have 2 endpoints :
+1-Store to store data into database:
+    Paramters: 1-start_station_id
+               2-end_station_id  
+               3-trip_main_id
+2-Index to list available seats :
+    Parameters: 1-start_station_id
+                2-end_station_id
+    
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
